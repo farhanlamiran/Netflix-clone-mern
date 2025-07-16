@@ -9,7 +9,7 @@ export const apiInstance = axios.create({
 })
 
 export const apiInstanceExpress = axios.create({
-    baseURL: import.meta.env.VITE_BASE_URL_EXPRESS,
+    baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000",
     headers: {
         "Content-Type": "application/json",
     }
