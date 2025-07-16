@@ -19,6 +19,7 @@ const Login = () => {
     const [isLoading, setIsLoading] = useState(false)
 
     const handleLogin = async (e) => {
+        console.log({ handleLogin })
         e.preventDefault()
         try {
             setIsLoading(true)
