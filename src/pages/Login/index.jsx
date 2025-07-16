@@ -20,6 +20,7 @@ const Login = () => {
 
     const handleLogin = async (e) => {
         console.log({ handleLogin })
+        // gua coba nambahin command
         e.preventDefault()
         try {
             setIsLoading(true)
